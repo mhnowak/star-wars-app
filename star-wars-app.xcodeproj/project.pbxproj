@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		901CA88323BE6B3E0066524F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901CA88223BE6B3E0066524F /* AppDelegate.swift */; };
 		901CA88523BE6B3E0066524F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901CA88423BE6B3E0066524F /* SceneDelegate.swift */; };
-		901CA88723BE6B3E0066524F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901CA88623BE6B3E0066524F /* ViewController.swift */; };
-		901CA88A23BE6B3E0066524F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901CA88823BE6B3E0066524F /* Main.storyboard */; };
+		901CA88723BE6B3E0066524F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901CA88623BE6B3E0066524F /* MainViewController.swift */; };
 		901CA88C23BE6B430066524F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 901CA88B23BE6B430066524F /* Assets.xcassets */; };
 		901CA88F23BE6B430066524F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901CA88D23BE6B430066524F /* LaunchScreen.storyboard */; };
+		901CA89823BE6DF00066524F /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 901CA89723BE6DF00066524F /* RxSwift */; };
+		901CA89A23BE6DF00066524F /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 901CA89923BE6DF00066524F /* RxCocoa */; };
+		901CA8A023BE702E0066524F /* SWApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901CA89F23BE702E0066524F /* SWApi.swift */; };
+		901CA8A423BE72500066524F /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901CA8A323BE72500066524F /* Button.swift */; };
+		901CA8AB23BF74630066524F /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901CA8AA23BF74630066524F /* PeopleViewController.swift */; };
+		901CA8AD23BF93880066524F /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901CA8AC23BF93880066524F /* Alert.swift */; };
+		901CA8B023C3D3E40066524F /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901CA8AF23C3D3E30066524F /* People.swift */; };
+		90CCE86A23C3DE17000CAF5F /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 90CCE86923C3DE17000CAF5F /* Moya */; };
+		90CCE86C23C3DE17000CAF5F /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 90CCE86B23C3DE17000CAF5F /* RxMoya */; };
+		90CCE86E23C4817C000CAF5F /* SWApi+Moya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CCE86D23C4817C000CAF5F /* SWApi+Moya.swift */; };
+		90CCE87123C487F4000CAF5F /* PeopleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CCE87023C487F4000CAF5F /* PeopleRepository.swift */; };
+		90CCE87323C48A14000CAF5F /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CCE87223C48A14000CAF5F /* PeopleViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		901CA87F23BE6B3E0066524F /* star-wars-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "star-wars-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		901CA88223BE6B3E0066524F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		901CA88423BE6B3E0066524F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		901CA88623BE6B3E0066524F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		901CA88923BE6B3E0066524F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		901CA88623BE6B3E0066524F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		901CA88B23BE6B430066524F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		901CA88E23BE6B430066524F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		901CA89023BE6B430066524F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		901CA89F23BE702E0066524F /* SWApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWApi.swift; sourceTree = "<group>"; };
+		901CA8A323BE72500066524F /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		901CA8AA23BF74630066524F /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		901CA8AC23BF93880066524F /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		901CA8AF23C3D3E30066524F /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		90CCE86D23C4817C000CAF5F /* SWApi+Moya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SWApi+Moya.swift"; sourceTree = "<group>"; };
+		90CCE87023C487F4000CAF5F /* PeopleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleRepository.swift; sourceTree = "<group>"; };
+		90CCE87223C48A14000CAF5F /* PeopleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90CCE86C23C3DE17000CAF5F /* RxMoya in Frameworks */,
+				901CA89A23BE6DF00066524F /* RxCocoa in Frameworks */,
+				901CA89823BE6DF00066524F /* RxSwift in Frameworks */,
+				90CCE86A23C3DE17000CAF5F /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C474BE092347714B299DE12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		901CA87623BE6B3E0066524F = {
 			isa = PBXGroup;
 			children = (
 				901CA88123BE6B3E0066524F /* star-wars-app */,
 				901CA88023BE6B3E0066524F /* Products */,
+				1C474BE092347714B299DE12 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +86,86 @@
 		901CA88123BE6B3E0066524F /* star-wars-app */ = {
 			isa = PBXGroup;
 			children = (
-				901CA88223BE6B3E0066524F /* AppDelegate.swift */,
-				901CA88423BE6B3E0066524F /* SceneDelegate.swift */,
-				901CA88623BE6B3E0066524F /* ViewController.swift */,
-				901CA88823BE6B3E0066524F /* Main.storyboard */,
-				901CA88B23BE6B430066524F /* Assets.xcassets */,
-				901CA88D23BE6B430066524F /* LaunchScreen.storyboard */,
+				90CCE86F23C487E5000CAF5F /* Repositories */,
+				901CA8AE23C3D3C80066524F /* Models */,
+				901CA8A223BE72040066524F /* UI */,
+				901CA89E23BE6FA80066524F /* Network */,
+				901CA89C23BE6E390066524F /* Pages */,
+				901CA89B23BE6E160066524F /* SupportingFiles */,
 				901CA89023BE6B430066524F /* Info.plist */,
 			);
 			path = "star-wars-app";
+			sourceTree = "<group>";
+		};
+		901CA89B23BE6E160066524F /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				901CA88223BE6B3E0066524F /* AppDelegate.swift */,
+				901CA88423BE6B3E0066524F /* SceneDelegate.swift */,
+				901CA88B23BE6B430066524F /* Assets.xcassets */,
+				901CA88D23BE6B430066524F /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		901CA89C23BE6E390066524F /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				901CA8A723BF742C0066524F /* People */,
+				901CA89D23BE6E520066524F /* Main */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		901CA89D23BE6E520066524F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				901CA88623BE6B3E0066524F /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		901CA89E23BE6FA80066524F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				901CA89F23BE702E0066524F /* SWApi.swift */,
+				90CCE86D23C4817C000CAF5F /* SWApi+Moya.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		901CA8A223BE72040066524F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				901CA8A323BE72500066524F /* Button.swift */,
+				901CA8AC23BF93880066524F /* Alert.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		901CA8A723BF742C0066524F /* People */ = {
+			isa = PBXGroup;
+			children = (
+				901CA8AA23BF74630066524F /* PeopleViewController.swift */,
+				90CCE87223C48A14000CAF5F /* PeopleViewModel.swift */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		901CA8AE23C3D3C80066524F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				901CA8AF23C3D3E30066524F /* People.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		90CCE86F23C487E5000CAF5F /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				90CCE87023C487F4000CAF5F /* PeopleRepository.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +184,12 @@
 			dependencies = (
 			);
 			name = "star-wars-app";
+			packageProductDependencies = (
+				901CA89723BE6DF00066524F /* RxSwift */,
+				901CA89923BE6DF00066524F /* RxCocoa */,
+				90CCE86923C3DE17000CAF5F /* Moya */,
+				90CCE86B23C3DE17000CAF5F /* RxMoya */,
+			);
 			productName = "star-wars-app";
 			productReference = 901CA87F23BE6B3E0066524F /* star-wars-app.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +218,10 @@
 				Base,
 			);
 			mainGroup = 901CA87623BE6B3E0066524F;
+			packageReferences = (
+				901CA89623BE6DF00066524F /* XCRemoteSwiftPackageReference "RxSwift" */,
+				90CCE86823C3DE17000CAF5F /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			productRefGroup = 901CA88023BE6B3E0066524F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +238,6 @@
 			files = (
 				901CA88F23BE6B430066524F /* LaunchScreen.storyboard in Resources */,
 				901CA88C23BE6B430066524F /* Assets.xcassets in Resources */,
-				901CA88A23BE6B3E0066524F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +248,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				901CA88723BE6B3E0066524F /* ViewController.swift in Sources */,
+				90CCE86E23C4817C000CAF5F /* SWApi+Moya.swift in Sources */,
+				90CCE87323C48A14000CAF5F /* PeopleViewModel.swift in Sources */,
+				901CA88723BE6B3E0066524F /* MainViewController.swift in Sources */,
+				901CA8AB23BF74630066524F /* PeopleViewController.swift in Sources */,
 				901CA88323BE6B3E0066524F /* AppDelegate.swift in Sources */,
+				901CA8B023C3D3E40066524F /* People.swift in Sources */,
+				90CCE87123C487F4000CAF5F /* PeopleRepository.swift in Sources */,
+				901CA8A423BE72500066524F /* Button.swift in Sources */,
+				901CA8A023BE702E0066524F /* SWApi.swift in Sources */,
+				901CA8AD23BF93880066524F /* Alert.swift in Sources */,
 				901CA88523BE6B3E0066524F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +265,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		901CA88823BE6B3E0066524F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				901CA88923BE6B3E0066524F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		901CA88D23BE6B430066524F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -336,6 +446,49 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		901CA89623BE6DF00066524F /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 6.0.0;
+				minimumVersion = 4.0.0;
+			};
+		};
+		90CCE86823C3DE17000CAF5F /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		901CA89723BE6DF00066524F /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 901CA89623BE6DF00066524F /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		901CA89923BE6DF00066524F /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 901CA89623BE6DF00066524F /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		90CCE86923C3DE17000CAF5F /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90CCE86823C3DE17000CAF5F /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		90CCE86B23C3DE17000CAF5F /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90CCE86823C3DE17000CAF5F /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 901CA87723BE6B3E0066524F /* Project object */;
 }
