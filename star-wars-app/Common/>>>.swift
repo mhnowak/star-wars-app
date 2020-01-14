@@ -13,7 +13,7 @@ precedencegroup ForwardComposition {
   higherThan: EffectiveComposition
 }
 
-infix operator >>>: 
+infix operator >>>: ForwardComposition
 
 func >>> <A, B, C>(f: @escaping (A) -> B, g: @escaping (B) -> C) -> ((A) -> C) {
   return { a in
