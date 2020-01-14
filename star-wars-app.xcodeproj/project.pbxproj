@@ -14,7 +14,7 @@
 		901CA88F23BE6B430066524F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901CA88D23BE6B430066524F /* LaunchScreen.storyboard */; };
 		901CA89823BE6DF00066524F /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 901CA89723BE6DF00066524F /* RxSwift */; };
 		901CA89A23BE6DF00066524F /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 901CA89923BE6DF00066524F /* RxCocoa */; };
-		901CA8A023BE702E0066524F /* SWApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901CA89F23BE702E0066524F /* SWApi.swift */; };
+		901CA8A023BE702E0066524F /* SWApi-Moya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901CA89F23BE702E0066524F /* SWApi-Moya.swift */; };
 		901CA8A423BE72500066524F /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901CA8A323BE72500066524F /* Button.swift */; };
 		901CA8AB23BF74630066524F /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901CA8AA23BF74630066524F /* PeopleViewController.swift */; };
 		901CA8AD23BF93880066524F /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901CA8AC23BF93880066524F /* Alert.swift */; };
@@ -24,6 +24,16 @@
 		90CCE86E23C4817C000CAF5F /* SWApi+Moya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CCE86D23C4817C000CAF5F /* SWApi+Moya.swift */; };
 		90CCE87123C487F4000CAF5F /* PeopleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CCE87023C487F4000CAF5F /* PeopleRepository.swift */; };
 		90CCE87323C48A14000CAF5F /* PeopleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CCE87223C48A14000CAF5F /* PeopleViewModel.swift */; };
+		90FDE30123C8A0A9004443EF /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FDE30023C8A0A9004443EF /* APIRequest.swift */; };
+		90FDE30323C8A23A004443EF /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FDE30223C8A23A004443EF /* Requests.swift */; };
+		90FDE30523C8A2BE004443EF /* SWApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FDE30423C8A2BE004443EF /* SWApi.swift */; };
+		90FDE30723CC529B004443EF /* |>.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FDE30623CC529B004443EF /* |>.swift */; };
+		90FDE30923CC53C9004443EF /* >>>.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FDE30823CC53C9004443EF /* >>>.swift */; };
+		90FDE30B23CC5697004443EF /* >=>.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FDE30A23CC5697004443EF /* >=>.swift */; };
+		90FDE30D23CCC35D004443EF /* <>.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FDE30C23CCC35D004443EF /* <>.swift */; };
+		90FDE30F23CCCDCA004443EF /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FDE30E23CCCDCA004443EF /* View.swift */; };
+		90FDE31123CCCF49004443EF /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FDE31023CCCF49004443EF /* Label.swift */; };
+		90FDE31323CCD72D004443EF /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FDE31223CCD72D004443EF /* PeopleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +44,7 @@
 		901CA88B23BE6B430066524F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		901CA88E23BE6B430066524F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		901CA89023BE6B430066524F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		901CA89F23BE702E0066524F /* SWApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWApi.swift; sourceTree = "<group>"; };
+		901CA89F23BE702E0066524F /* SWApi-Moya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SWApi-Moya.swift"; sourceTree = "<group>"; };
 		901CA8A323BE72500066524F /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		901CA8AA23BF74630066524F /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 		901CA8AC23BF93880066524F /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
@@ -42,6 +52,16 @@
 		90CCE86D23C4817C000CAF5F /* SWApi+Moya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SWApi+Moya.swift"; sourceTree = "<group>"; };
 		90CCE87023C487F4000CAF5F /* PeopleRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleRepository.swift; sourceTree = "<group>"; };
 		90CCE87223C48A14000CAF5F /* PeopleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewModel.swift; sourceTree = "<group>"; };
+		90FDE30023C8A0A9004443EF /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		90FDE30223C8A23A004443EF /* Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
+		90FDE30423C8A2BE004443EF /* SWApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWApi.swift; sourceTree = "<group>"; };
+		90FDE30623CC529B004443EF /* |>.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "|>.swift"; sourceTree = "<group>"; };
+		90FDE30823CC53C9004443EF /* >>>.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ">>>.swift"; sourceTree = "<group>"; };
+		90FDE30A23CC5697004443EF /* >=>.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ">=>.swift"; sourceTree = "<group>"; };
+		90FDE30C23CCC35D004443EF /* <>.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "<>.swift"; sourceTree = "<group>"; };
+		90FDE30E23CCCDCA004443EF /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		90FDE31023CCCF49004443EF /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		90FDE31223CCD72D004443EF /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +106,7 @@
 		901CA88123BE6B3E0066524F /* star-wars-app */ = {
 			isa = PBXGroup;
 			children = (
+				90FDE2FD23C77C9D004443EF /* Common */,
 				90CCE86F23C487E5000CAF5F /* Repositories */,
 				901CA8AE23C3D3C80066524F /* Models */,
 				901CA8A223BE72040066524F /* UI */,
@@ -128,8 +149,11 @@
 		901CA89E23BE6FA80066524F /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				901CA89F23BE702E0066524F /* SWApi.swift */,
+				901CA89F23BE702E0066524F /* SWApi-Moya.swift */,
 				90CCE86D23C4817C000CAF5F /* SWApi+Moya.swift */,
+				90FDE30023C8A0A9004443EF /* APIRequest.swift */,
+				90FDE30223C8A23A004443EF /* Requests.swift */,
+				90FDE30423C8A2BE004443EF /* SWApi.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -139,6 +163,8 @@
 			children = (
 				901CA8A323BE72500066524F /* Button.swift */,
 				901CA8AC23BF93880066524F /* Alert.swift */,
+				90FDE30E23CCCDCA004443EF /* View.swift */,
+				90FDE31023CCCF49004443EF /* Label.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -148,6 +174,7 @@
 			children = (
 				901CA8AA23BF74630066524F /* PeopleViewController.swift */,
 				90CCE87223C48A14000CAF5F /* PeopleViewModel.swift */,
+				90FDE31223CCD72D004443EF /* PeopleView.swift */,
 			);
 			path = People;
 			sourceTree = "<group>";
@@ -166,6 +193,17 @@
 				90CCE87023C487F4000CAF5F /* PeopleRepository.swift */,
 			);
 			path = Repositories;
+			sourceTree = "<group>";
+		};
+		90FDE2FD23C77C9D004443EF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				90FDE30623CC529B004443EF /* |>.swift */,
+				90FDE30823CC53C9004443EF /* >>>.swift */,
+				90FDE30A23CC5697004443EF /* >=>.swift */,
+				90FDE30C23CCC35D004443EF /* <>.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,15 +287,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				90CCE86E23C4817C000CAF5F /* SWApi+Moya.swift in Sources */,
+				90FDE30B23CC5697004443EF /* >=>.swift in Sources */,
+				90FDE31323CCD72D004443EF /* PeopleView.swift in Sources */,
 				90CCE87323C48A14000CAF5F /* PeopleViewModel.swift in Sources */,
 				901CA88723BE6B3E0066524F /* MainViewController.swift in Sources */,
 				901CA8AB23BF74630066524F /* PeopleViewController.swift in Sources */,
+				90FDE30323C8A23A004443EF /* Requests.swift in Sources */,
+				90FDE30F23CCCDCA004443EF /* View.swift in Sources */,
 				901CA88323BE6B3E0066524F /* AppDelegate.swift in Sources */,
+				90FDE30523C8A2BE004443EF /* SWApi.swift in Sources */,
+				90FDE30723CC529B004443EF /* |>.swift in Sources */,
 				901CA8B023C3D3E40066524F /* People.swift in Sources */,
 				90CCE87123C487F4000CAF5F /* PeopleRepository.swift in Sources */,
+				90FDE30D23CCC35D004443EF /* <>.swift in Sources */,
 				901CA8A423BE72500066524F /* Button.swift in Sources */,
-				901CA8A023BE702E0066524F /* SWApi.swift in Sources */,
+				901CA8A023BE702E0066524F /* SWApi-Moya.swift in Sources */,
 				901CA8AD23BF93880066524F /* Alert.swift in Sources */,
+				90FDE30123C8A0A9004443EF /* APIRequest.swift in Sources */,
+				90FDE30923CC53C9004443EF /* >>>.swift in Sources */,
+				90FDE31123CCCF49004443EF /* Label.swift in Sources */,
 				901CA88523BE6B3E0066524F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

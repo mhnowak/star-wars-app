@@ -13,8 +13,8 @@ import Moya
 class PeopleViewModel {
     private let repository = PeopleRepository()
     
-    var peopleObservable: Observable<People> {
-        return repository.peopleObservable.asObservable()
+    var peopleObservable: Observable<[Person]> {
+        return repository.peopleObservable.map { $0.results }
     }
     
     var loadingObservable: Observable<Bool> {

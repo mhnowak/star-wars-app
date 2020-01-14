@@ -9,7 +9,6 @@
 import Foundation
 import Moya
 import RxMoya
-import Alamofire
 
 public enum SW {
     case people
@@ -47,6 +46,4 @@ extension SW: TargetType {
     public var validationType: ValidationType {
       return .successCodes
     }
-    
-    
 }

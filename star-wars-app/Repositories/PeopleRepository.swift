@@ -12,9 +12,9 @@ class PeopleRepository {
     private let api = SWApi()
     private lazy var jsonDecoder = JSONDecoder()
     
-    private(set) lazy var peopleObservable = api.request(SW.people).map { (response) -> People in
+    private(set) lazy var peopleObservable = api.request(apiRequest: SWRequests.people).map { (response) -> People in
         do {
-            return try self.jsonDecoder.decode(People.self, from: response.data)
+            return try self.jsonDecoder.decode(People.self, from: response.data!)
         } catch {
             return People(results: [])
         }

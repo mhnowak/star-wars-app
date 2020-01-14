@@ -8,20 +8,11 @@
 
 import Foundation
 
-public struct People: Decodable {
+struct People: Decodable {
     let results: [Person]
-    
-    init(results: [Person]) {
-        self.results = results
-    }
 }
 
-public struct Person: Decodable {
+struct Person: Decodable {
     let name: String
     let url: String
-    
-    init(name: String, url: String) {
-        self.name = name
-        self.url = url
-    }
 }

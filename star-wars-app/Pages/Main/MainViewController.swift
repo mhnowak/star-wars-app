@@ -10,15 +10,19 @@ import UIKit
 
 class MainViewController: UIViewController {
     override func loadView() {
-        super.loadView()
         view = UIView()
-        
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad();
         title = "Main Page"
         
         let peopleButton = UIButton()
-        peopleButton.setTitle("Click to open People's Page", for: .normal)
-        peopleButton.homeButton()
         peopleButton.addTarget(self, action: #selector(navigateToPeoplePage), for: .touchUpInside)
+
+        peopleButton |> Button.setTitle("Click to open People's Page")
+            <> Button.homeButtonStyle
+        
         view.addSubview(peopleButton)
         
         view.addConstraints([
